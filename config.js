@@ -10,13 +10,13 @@ global.email = 'akk728492@gmail.com'
 global.github = 'https://github.com/arkhan998/MALIK-MD'
 global.location = 'Pakistan'
 global.gurl = 'king-md.db' // add your username
-global.sudo = process.env.SUDO || '923124533358'
-global.devs = '923124533358';
-global.website = 'https://github.com/arkhan998/MALIK-MD' //wa.me/+91000000000000
+global.sudo = process.env.SUDO || '254712143384'
+global.devs = '254712143384';
+global.website = 'https://github.com/arkhan998/MALIK-MD' //wa.me/+254712143384
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/dce77f7538019d05afe65.jpg'
 module.exports = {
   
-  sessionName:  process.env.SESSION_ID ||  "session",
+  sessionName:  process.env.SESSION_ID ||  "",
   botname:   process.env.BOT_NAME === undefined ? 'MALIK-BOT' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'arkhan' : process.env.OWNER_NAME,
   author:  process.env.PACK_INFO === undefined ? 'bot' : process.env.PACK_INFO.split(";")[0],
@@ -24,7 +24,7 @@ module.exports = {
   packname:  process.env.PACK_INFO === undefined ? 'malik-Md' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nigga' : process.env.ANTI_BAD_WORD,
-  alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
+  alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
   typingprensence:  process.env.TYPING === undefined ? false : process.env.TYPING,
 recordingpresence:  process.env.RECORDING === undefined ? false : process.env.RECORDING,	
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '971' : process.env.FAKE_COUNTRY_CODE,
